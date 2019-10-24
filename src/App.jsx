@@ -1,17 +1,17 @@
 import React from 'react';
-import './App.css';
 import TransactionTable from './TransactionTable';
-
 
 class App extends React.Component {
 
   constructor(props) {
     super(props);
+    // some hardcoded data to initialize the table with at least one element
     this.state = {
        unconfirmed: [{
          time: "1571719348",
          txIndex: "502702928",
-         hash: "190ca60f9558ea8c3d808ea960c575f43b57008c6e405abab69362983a301dd7"
+         hash:
+          "190ca60f9558ea8c3d808ea960c575f43b57008c6e405abab69362983a301dd7"
        }]
      };
   }
@@ -38,7 +38,7 @@ class App extends React.Component {
       console.log(e.data);
       var responseJSON = JSON.parse(e.data);
 
-      // extract out data from transaction for table
+      // extract out data from websocket message for table
       var transaction = {
         time: responseJSON.x.time,
         txIndex: responseJSON.x.tx_index,
@@ -51,14 +51,6 @@ class App extends React.Component {
         newTopTen.shift();
       }
       this.setState({ unconfirmed: newTopTen});
-
-      // code to generate a set number of transactions before closing connection
-      // var ran = Math.random();
-      // console.log("ran is " + ran);
-      // if (ran > 0.95) {
-      //   webSock.close();
-      // }
-
     };
 
     // websocket onerror event listener

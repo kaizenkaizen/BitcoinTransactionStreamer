@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Table from '@material-ui/core/Table';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import TableBody from '@material-ui/core/TableBody';
@@ -36,6 +35,7 @@ const StyledTableRow = withStyles(theme => ({
   },
 }))(TableRow);
 
+// This react component takes props and returns a table
 function TransactionTable(props) {
   const classes = useStyles();
 
@@ -57,7 +57,7 @@ function TransactionTable(props) {
   );
 }
 
-
+// this will take the data passed it and show it nicely within a table
 function renderTableData(unconfirmed) {
  return unconfirmed.map((unconfirmed, index) => {
     const { time, txIndex, hash } = unconfirmed; //destructuring
