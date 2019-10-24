@@ -6,6 +6,10 @@ bitcointicker.co/transactions, bitcointicker.co, realtimebitcoin.info,
 coinlaunch.com, https://blockchain.info/unconfirmed-transactions and
 https://explorer.bitcoin.com/btc. Take no more than four hours.
 
+What Finished Bitcoing transaction stream viewer looks like:
+![alt text](https://github.com/kaizenkaizen/BitcoinTransactionStreamer/blob/master/public/readme_image.png "What Project Looks Like")
+
+
 First 30 minutes:
 1. Looked at the API
 2. We figured out the websocket protocol
