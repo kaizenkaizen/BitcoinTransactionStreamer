@@ -1,3 +1,8 @@
+Run this in commandline use Website:
+1. Git clone Repo
+2. yarn
+3. yarn start
+
 Create a Bitcoin transaction stream viewer for any desktop browser with React;
 you can get a stream of Bitcoin transactions from
 https://blockchain.info/api/api_websocket.
