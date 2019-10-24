@@ -12,7 +12,7 @@ What Finished Bitcoing transaction stream viewer looks like:
 
 First 30 minutes:
 1. Looked at the API
-2. We figured out the websocket protocol
+2. Figured out the websocket protocol
 3. Checked out example bitcoin transaction streaming sites
 4. Installed yarn
 5. Also looked at HTML pages using babel to inject react
@@ -21,7 +21,7 @@ Next 1 hour:
 1. Use Yarn to install react app project
 2. Create our own React Component
 3. Added react component to our index.jsx page
-4. We subscribed to unconfirmed transactions
+4. Subscribed to unconfirmed transactions
 5. Figured out websocket messages
 6. Got sample transactions
 
