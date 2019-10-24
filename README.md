@@ -1,5 +1,5 @@
-Run this in commandline use Website:
-1. Git clone Repo
+Run this in command line to use Website:
+1. git clone git@github.com:kaizenkaizen/BitcoinTransactionStreamer.git
 2. yarn
 3. yarn start
 
