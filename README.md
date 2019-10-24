@@ -1,4 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create a Bitcoin transaction stream viewer for any desktop browser with React;
+you can get a stream of Bitcoin transactions from
+https://blockchain.info/api/api_websocket.
+Examples include bitbonkers.com, bitlisten.com, bitcoinglobe.com,
+bitcointicker.co/transactions, bitcointicker.co, realtimebitcoin.info,
+coinlaunch.com, https://blockchain.info/unconfirmed-transactions and
+https://explorer.bitcoin.com/btc. Take no more than four hours.
+
+First 30 minutes:
+1. Looked at the API
+2. We figured out the websocket protocol
+3. Checked out example bitcoin transaction streaming sites
+4. Installed yarn
+5. Also looked at HTML pages using babel to inject react
+
+Next 1 hour:
+1. Use Yarn to install react app project
+2. Create our own React Component
+3. Added react component to our index.jsx page
+4. We subscribed to unconfirmed transactions
+5. Figured out websocket messages
+6. Got sample transactions
+
+Next 1 hour:
+1. Try to create a table (Time of Transaction, Transaction Index, Hash)
+2. Update the table whenever a new transaction comes in
+3. Use React states
+
+
+Next 1 hour:
+1. Use react material UI to make everything look nice :)
+
 
 ## Available Scripts
 
